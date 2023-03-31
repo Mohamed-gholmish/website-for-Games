@@ -92,6 +92,7 @@ function displayData(gamesData){
     }
     document.getElementById("gameData").innerHTML=cardBox;
 }
+
 function startVideo(event){
     const video1=event.target.querySelector("video");
     video1.classList.remove("d-none");
